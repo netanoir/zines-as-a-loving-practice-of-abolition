@@ -1,0 +1,45 @@
+
+/* add our own custom css below */
+
+body {
+
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
+/* neta's template css is below */
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hold-our-zine-tenderly {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 2%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.left {
+    /* please change the border style */
+    border-right: 2px dashed black;
+}
+
+.left::-webkit-scrollbar, .right::-webkit-scrollbar {
+    display: none;
+    width: 0 !important;
+}
